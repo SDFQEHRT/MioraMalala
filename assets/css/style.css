@@ -1,0 +1,167 @@
+body{
+	background-repeat: repeat;
+}
+#bb{
+	color: black;
+}
+.text{
+	font-family: algerian;
+	font-size: 25px;
+}
+#ret{
+	margin-left: 1100px;
+}
+
+#table{
+	text-align: center;
+}
+
+#pdp{
+	color: white;
+	text-align: center;
+	height: 80px;
+	background-color: #222;
+	border: 4px dotted Tomato;
+}
+
+#btn{
+	height: 40px;
+	width: 15px;
+	color: white;
+	background-color: black;
+	border-radius: 10px;
+
+}
+
+.row{
+	text-align: center;
+}
+.footer {
+    background-color:gray;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia;
+    margin-top: 100px;
+}
+h2{
+	font-size: 45px;
+	text-align: center;
+	box-shadow: 0 8px 10px;
+	border-radius: 40px;
+}
+#btn{
+	width: 200px;
+
+}
+.all{
+	text-align: center;
+}
+
+.img{
+	margin-top: 100px;
+}
+.cal1{
+	margin-left:700px;
+	
+}
+.kajy{
+	display: inline-flex;
+}
+
+#bt{
+	width: 100px;
+	height: 60px;
+	background-color: blue;
+	color: pink;
+	font-size: 30px;
+}
+
+.btn{
+	margin-left: 100px;
+	width: 100px;
+
+}
+
+.mi{
+	width: 800px;
+	height: 60px;
+	background-color: gray;
+}
+
+.me{
+	width:800px;
+	height: 300px;
+	background-color: gray;
+
+
+}
+
+.io{
+	margin-left: 400px;
+}
+
+.mm{
+	margin-left: 900px;
+	margin-top: 300px;
+
+}
+
+.saa{
+	margin-left: 450px;
+}
+
+.ir{
+	margin-left: 450px;
+}
+.soratra{
+	text-align: center;
+	font-family: algerian;
+	font-size: 60px; 
+	color: hsl(0, 20%, 50%);
+	animation-name:tada;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+
+
+}
+#text2{
+	font-size: 20px;
+	font-family: algerian;
+	color: black;
+	margin-left: 350px;
+}
+.env{
+	width: 140px;
+	color: red;
+	font-size: 30px;
+}
+#mol{
+	font-size: 20px;
+}
+#calc{
+	margin-left: 450px;
+	height: 400px;
+}
+h3{
+	text-align: center;
+	color: rgb(1,86,3);
+	font-size: 50px;
+	width: 500px;
+	margin-left: 400px;
+	animation-name:bounce;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
+.sare{
+	display: inline-flex;
+}
+.conne{
+	display: inline-flex;
+}
+.gal{
+	animation-name:fadeInLeft;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href=".\assets\css\bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href=".\assets\css\style.css">
+	<link rel="stylesheet" type="text/css" href=".\assets\css\animate.min.css">
+	<title>Calculatrice </title>
+</head>
+<body style="background-image: url(./assets/img/ooo.jpg);">
+	<h3>Simple calculator</h3>
+	<br>
+	<form name="calc">
+		<table id="calc" border="2">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-md-offest-4col-xs_8 col-xs-offest-2">
+						<tr>
+							<td colspan="5"><input type="text" name="display"></td>
+
+						</tr>
+
+						<tr>
+							<td><input id="bt" type=button value="MS" OnClick="calc.M.value=calc.display.value"></td>
+							<td><input id="bt" type=button value="9" onclick="calc.display.value +='9'"></td>
+							<td><input id="bt" type=button value="8" onclick="calc.display.value +='8'"></td>
+							<td><input id="bt" type=button value="7" onclick="calc.display.value +='7'"></td>
+						</tr>
+						<tr>
+							<td><input id="bt" type=button value="MR" OnClick="calc.display.value=calc.M.value"></td>	
+							<td><input id="bt" type=button value="6" onclick="calc.display.value +='6'"></td>
+							<td><input id="bt" type=button value="5" onclick="calc.display.value +='5'"></td>
+							<td><input id="bt" type=button value="4" onclick="calc.display.value +='4'"></td>
+						</tr>
+						<tr>
+							<td><input id="bt" type=button value="M+" OnClick="calc.M.value=(Number(calc.M.value))+(Number(calc.display.value))"></td>	
+							<td><input id="bt" type=button value="3" onclick="calc.display.value +='3'"></td>
+							<td><input id="bt" type=button value="2" onclick="calc.display.value +='2'"></td>
+							<td><input id="bt" type=button value="1" onclick="calc.display.value +='1'"></td>
+						</tr>	
+						<tr>
+							<td><input id="bt" type=button value="0" onclick="calc.display.value +='0'"></td>
+							<td><input id="bt" type=button value="/" onclick="calc.display.value +='/'"></td>
+							<td><input id="bt" type=button value="Clear" OnClick="calc.display.value=''"></td>
+							<td><input id="bt" type=button value="," onclick="calc.display.value +=','"></td>
+
+							<tr>
+								<td><input id="bt" type=button value="+" onclick="calc.display.value +='+'"></td>
+								<td><input id="bt" type=button value="-" onclick="calc.display.value +='-'"></td>
+								<td><input id="bt" type=button value="x" onclick="calc.display.value +='x'"></td>
+								<td><input id="bt" type=button value="=" onclick="calc.display.value=eval(calc.display.value)"></td>
+							</tr>
+						</div>
+					</div> 
+				</div>		
+			</table>	
+		</form>
+		<div id="ret">	
+			<a href="projet.html"><li class="accuiel btn btn-lg btn-success">RETOUR</li></a>
+		</div>	
+
+	</body>
+	</html>	
